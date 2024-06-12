@@ -1,0 +1,554 @@
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.flex-container h1 {
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 19.55px;
+    text-align: left;
+    margin: 15px 70px 15px 15px;
+    color: #636060;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.gerbi {
+    margin: 0px 300px 0px 0px;
+    height: 100px;
+}
+
+.one {
+    margin: 80px 0px 0px 40px;
+    display: inline-block;
+}
+
+.one h1 {
+    width: 235px;
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    margin: 30px 0px 0px 0px;
+    text-decoration: none;
+
+
+}
+
+.one p {
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 19.55px;
+    text-align: left;
+
+}
+
+.one h2 {
+    color: #010101;
+    font-family: Helvetica;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32.2px;
+    text-align: left;
+
+}
+
+.two {
+    display: inline-block;
+    margin: 80px 0px 0px 100px;
+    vertical-align: top;
+
+}
+
+.two h1 {
+    font-family: Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 21.85px;
+    text-align: left;
+    margin: 20px 0px 0px 0px;
+    color: #343232;
+
+
+}
+
+.two h2 {
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.7px;
+    text-align: left;
+    color: #636060;
+    width: 286px;
+    margin: 10px 0px 0px 0px;
+}
+
+.three {
+    display: inline-block;
+    margin: 80px 0px 0px 40px;
+    vertical-align: top;
+}
+
+.three h1 {
+    font-family: Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 21.85px;
+    margin: 20px 0px 0px 0px;
+    color: #343232;
+
+}
+
+.three h2 {
+    margin: 10px 0px 0px 0px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 21.85px;
+    width: 259px;
+    color: #636060;
+
+}
+
+.four {
+    display: inline-block;
+    margin: 80px 0px 0px 40px;
+    vertical-align: top;
+}
+
+.four h1 {
+    font-family: Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 21.85px;
+    margin: 20px 0px 0px 0px;
+    color: #343232;
+
+}
+
+.four h2 {
+    margin: 10px 0px 0px 0px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 21.85px;
+    width: 259px;
+    color: #636060;
+
+}
+
+.five {
+    display: inline-block;
+    margin: 80px 0px 0px 380px;
+    vertical-align: top;
+}
+
+.five h1 {
+    font-family: Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 21.85px;
+    margin: 20px 0px 0px 0px;
+    color: #343232;
+
+}
+
+.five h2 {
+    margin: 10px 0px 0px 0px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 21.85px;
+    width: 286px;
+    color: #636060;
+}
+
+.six {
+    display: inline-block;
+    margin: 80px 0px 0px 40px;
+    vertical-align: top;
+}
+
+.six h1 {
+    font-family: Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 21.85px;
+    margin: 20px 0px 0px 0px;
+    color: #343232;
+
+}
+
+.six h2 {
+    margin: 10px 0px 0px 0px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 21.85px;
+    width: 286px;
+    color: #636060;
+}
+
+.seven {
+    display: inline-block;
+    margin: -315px 0px 0px 1040px;
+    vertical-align: top;
+}
+
+.seven h1 {
+    font-family: Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 21.85px;
+    margin: 20px 0px 0px 0px;
+    color: #343232;
+
+}
+
+.seven h2 {
+    margin: 10px 0px 0px 0px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 21.85px;
+    width: 286px;
+    color: #636060;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.con {
+    display: block;
+    max-width: 100%;
+    width: 1540px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Helvetica;
+    font-size: 79px;
+    font-weight: 700;
+    line-height: 90.84px;
+    text-align: left;
+    color: white;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000;
+}
+
+.nana {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 400%);
+    font-family: Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 21.85px;
+    text-align: left;
+    color: wheat;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    /* Horizontally center */
+    align-items: flex-start;
+    /* Align items to the start (top) */
+    height: 100vh;
+    /* Full height */
+    margin: 0;
+    /* Remove default margin */
+    padding-top: 50px;
+    /* Add top padding to move content down */
+    background-color: #f0f0f0;
+    /* Optional: background color for contrast */
+    text-align: center;
+}
+
+.all {
+    max-width: 1200px;
+    /* Adjust as needed */
+    width: 95%;
+    /* Full width but constrained by max-width */
+    padding: 20px;
+    /* Add some padding inside the border */
+    box-sizing: border-box;
+    /* Include padding in the element's total width and height */
+    border: 2px solid #333;
+    /* Border around the container */
+    border-radius: 15px;
+    /* Rounded corners */
+    background-color: #fff;
+    /* Optional: background color for the container */
+    box-shadow: 0 0 150px rgba(0, 89, 253, 0.997);
+    /* Optional: add some shadow for better visibility */
+    text-align: center;
+}
+
+.button {
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000;
+}
+
+.custom-link {
+    text-decoration: none;
+    color: inherit;
+    /* Ensure the link inherits the text color */
+}
+
+.custom-link:focus,
+.custom-link:hover,
+.custom-link:active {
+    text-decoration: none;
+    outline: none;
+    /* Remove focus outline */
+    color: inherit;
+    /* Ensure color does not change */
+}
+
+a {
+    text-decoration: none;
+}
+
+.drop {
+    background-color: white;
+}
+
+.chaw {
+    margin: 70px 0px 50px 0px;
+}
+
+.cha {
+    margin: 40px 0px 0px 0px;
+}
+
+.pica {
+    height: 70px;
+}
+
+.dop {
+    height: 150px;
+    position: left;
+    position: left;
+}
+
+
+
+.contact-info img {
+    max-width: 150px;
+    margin-right: 20px;
+}
+
+.contact-details {
+    max-width: 600px;
+    text-align: center;
+    margin: 20px;
+}
+
+.contact-details h3 {
+    margin-top: 0;
+}
+
+.contact-details p {
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    color: #f0f0f0;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-info img {
+    max-width: 150px;
+    margin-right: 20px;
+}
+
+.contact-details {
+    max-width: 600px;
+    text-align: center;
+}
+
+.contact-details h3 {
+    margin-top: 0;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #243043;
+    width: 100%;
+    height: 300px;
+    margin: 70px 0px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.allca {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.card-img-top {
+    height: 550px;
+}
+
+.bigpic {
+    width: 1100px;
+    height: 620px;
+    margin: 50px 0px 0px 0px;
+}
+
+.plsda {
+    margin: 50px 0px 0px 0px;
+}
+
+.picture {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.picture img {
+    height: 300px;
+    margin: 50px 0px 50px 0px;
+
+}
+
+.mapi {
+    width: 600px;
+    height: 450px;
+    border: 3px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.dropdown-toggle::after {
+    display: none;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    justify-content: center; /* Center the items */
+  }
+  
+ 
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px; /* Adjusted margin for even spacing */
+    padding: 10px 20px;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 19.55px;
+    background-color: #007bff; /* Blue background color */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    display: inline-block;
+  }
+  
+  .navbar a:hover {
+    transform: scale(1.1); /* Enlarge the link slightly */
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Dropdown Menu Styling */
+  .dropdown-menu {
+    padding: 10px;
+    
+    background-color: transparent !important; 
+    border: none !important;
+  }
+  
+  .dropdown-menu .dropdown-item {
+    margin: 5px 0; /* Add margin to create space between items */
+    padding: 10px 20px;
+    background-color:#007bff;
+    
+    border-radius: 5px;
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #007bffe4;
+    color: #fff;
+  }
+  .btn {
+    padding: 7px 14px; /* Adjust padding for bigger buttons */
+    font-size: 18px; /* Adjust font size for bigger buttons */
+    transition: all 0.3s ease; /* Add transition for smooth effect */
+  }
+
+  /* CSS for button size on hover */
+  .btn:hover {
+    padding: 10px 20px; /* Adjust padding for bigger buttons on hover */
+     /* Adjust font size for bigger buttons on hover */
+  }
+  .nahahpic img{
+    margin: 50px;
+    height: 500px;
+  }
