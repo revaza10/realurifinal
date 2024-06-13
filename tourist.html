@@ -2,9 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="jsscr/app.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -22,6 +23,20 @@
         <a href="index.html">მთავარი</a>
         <a href="shesaxeb.html">შესახებ</a>
         <a href="tourist_places.html">ტურისტული ადგილები</a>
+      
+        <!-- Burger menu icon -->
+        <div class="burger-menu" onclick="toggleMenu()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      
+        <!-- Hidden menu for smaller screens -->
+        <div class="hidden-menu">
+          <a href="index.html">მთავარი</a>
+          <a href="shesaxeb.html">შესახებ</a>
+          <a href="tourist_places.html">ტურისტული ადგილები</a>
+        </div>
       </div>
       <div class="allca" class="defbuto">
       <div class="card" style="width: 18rem" >
