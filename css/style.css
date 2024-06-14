@@ -1,1218 +1,1533 @@
 .flex-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 1200px;
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .flex-container h1 {
-    font-family: Helvetica;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 19.55px;
-    text-align: left;
-    margin: 15px 70px 15px 15px;
-    color: #636060;
-    max-width: 1200px;
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 19.55px;
+  text-align: left;
+  margin: 15px 70px 15px 15px;
+  color: #636060;
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
 
 }
 
 .gerbi {
-    margin: 0px 300px 0px 0px;
-    height: 100px;
+  margin: 0px 300px 0px 0px;
+  height: 100px;
 }
 
 .one {
-    margin: 80px 0px 0px 40px;
-    display: inline-block;
+  margin: 80px 0px 0px 40px;
+  display: inline-block;
 }
 
 .one h1 {
-    width: 235px;
-    color: #636060;
-    font-family: Helvetica;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 23px;
-    text-align: left;
-    margin: 30px 0px 0px 0px;
-    text-decoration: none;
+  width: 235px;
+  color: #636060;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: left;
+  margin: 30px 0px 0px 0px;
+  text-decoration: none;
 
 
 }
 
 .one p {
-    color: #636060;
-    font-family: Helvetica;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 19.55px;
-    text-align: left;
+  color: #636060;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 19.55px;
+  text-align: left;
 
 }
 
 .one h2 {
-    color: #010101;
-    font-family: Helvetica;
-    font-size: 28px;
-    font-weight: 400;
-    line-height: 32.2px;
-    text-align: left;
+  color: #010101;
+  font-family: Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32.2px;
+  text-align: left;
 
 }
 
 .two {
-    display: inline-block;
-    margin: 80px 0px 0px 100px;
-    vertical-align: top;
+  display: inline-block;
+  margin: 80px 0px 0px 100px;
+  vertical-align: top;
 
 }
 
 .two h1 {
-    font-family: Helvetica;
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 21.85px;
-    text-align: left;
-    margin: 20px 0px 0px 0px;
-    color: #343232;
+  font-family: Helvetica;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 21.85px;
+  text-align: left;
+  margin: 20px 0px 0px 0px;
+  color: #343232;
 
 
 }
 
 .two h2 {
-    font-family: Helvetica;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 20.7px;
-    text-align: left;
-    color: #636060;
-    width: 286px;
-    margin: 10px 0px 0px 0px;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20.7px;
+  text-align: left;
+  color: #636060;
+  width: 286px;
+  margin: 10px 0px 0px 0px;
 }
 
 .three {
-    display: inline-block;
-    margin: 80px 0px 0px 40px;
-    vertical-align: top;
+  display: inline-block;
+  margin: 80px 0px 0px 40px;
+  vertical-align: top;
 }
 
 .three h1 {
-    font-family: Helvetica;
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 21.85px;
-    margin: 20px 0px 0px 0px;
-    color: #343232;
+  font-family: Helvetica;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 21.85px;
+  margin: 20px 0px 0px 0px;
+  color: #343232;
 
 }
 .d-block w-100{
-  height: 620px;
+height: 620px;
 }
 .three h2 {
-    margin: 10px 0px 0px 0px;
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 21.85px;
-    width: 259px;
-    color: #636060;
+  margin: 10px 0px 0px 0px;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 21.85px;
+  width: 259px;
+  color: #636060;
 
 }
 
 .four {
-    display: inline-block;
-    margin: 80px 0px 0px 40px;
-    vertical-align: top;
+  display: inline-block;
+  margin: 80px 0px 0px 40px;
+  vertical-align: top;
 }
 
 .four h1 {
-    font-family: Helvetica;
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 21.85px;
-    margin: 20px 0px 0px 0px;
-    color: #343232;
+  font-family: Helvetica;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 21.85px;
+  margin: 20px 0px 0px 0px;
+  color: #343232;
 
 }
 
 .four h2 {
-    margin: 10px 0px 0px 0px;
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 21.85px;
-    width: 259px;
-    color: #636060;
+  margin: 10px 0px 0px 0px;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 21.85px;
+  width: 259px;
+  color: #636060;
 
 }
 
 .five {
-    display: inline-block;
-    margin: 80px 0px 0px 380px;
-    vertical-align: top;
+  display: inline-block;
+  margin: 80px 0px 0px 380px;
+  vertical-align: top;
 }
 
 .five h1 {
-    font-family: Helvetica;
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 21.85px;
-    margin: 20px 0px 0px 0px;
-    color: #343232;
+  font-family: Helvetica;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 21.85px;
+  margin: 20px 0px 0px 0px;
+  color: #343232;
 
 }
 
 .five h2 {
-    margin: 10px 0px 0px 0px;
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 21.85px;
-    width: 286px;
-    color: #636060;
+  margin: 10px 0px 0px 0px;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 21.85px;
+  width: 286px;
+  color: #636060;
 }
 
 .six {
-    display: inline-block;
-    margin: 80px 0px 0px 40px;
-    vertical-align: top;
+  display: inline-block;
+  margin: 80px 0px 0px 40px;
+  vertical-align: top;
 }
 
 .six h1 {
-    font-family: Helvetica;
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 21.85px;
-    margin: 20px 0px 0px 0px;
-    color: #343232;
+  font-family: Helvetica;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 21.85px;
+  margin: 20px 0px 0px 0px;
+  color: #343232;
 
 }
 
 .six h2 {
-    margin: 10px 0px 0px 0px;
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 21.85px;
-    width: 286px;
-    color: #636060;
+  margin: 10px 0px 0px 0px;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 21.85px;
+  width: 286px;
+  color: #636060;
 }
 
 .seven {
-    display: inline-block;
-    margin: -315px 0px 0px 1040px;
-    vertical-align: top;
+  display: inline-block;
+  margin: -315px 0px 0px 1040px;
+  vertical-align: top;
 }
 
 .seven h1 {
-    font-family: Helvetica;
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 21.85px;
-    margin: 20px 0px 0px 0px;
-    color: #343232;
+  font-family: Helvetica;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 21.85px;
+  margin: 20px 0px 0px 0px;
+  color: #343232;
 
 }
 
 .seven h2 {
-    margin: 10px 0px 0px 0px;
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 21.85px;
-    width: 286px;
-    color: #636060;
+  margin: 10px 0px 0px 0px;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 21.85px;
+  width: 286px;
+  color: #636060;
 }
 
 .image-container {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .con {
-    display: block;
-    max-width: 100%;
-    width: 1540px;
+  display: block;
+  max-width: 100%;
+  width: 1540px;
 }
 /* General img styles */
 img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  
+max-width: 100%;
+height: auto;
+display: block;
+
 }
-  
+
 .text-overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: Helvetica;
-    font-size: 79px;
-    font-weight: 700;
-    line-height: 90.84px;
-    text-align: left;
-    color: white;
-    text-shadow:
-        -1px -1px 0 #000,
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000,
-        -2px -2px 0 #000,
-        2px -2px 0 #000,
-        -2px 2px 0 #000,
-        2px 2px 0 #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Helvetica;
+  font-size: 79px;
+  font-weight: 700;
+  line-height: 90.84px;
+  text-align: left;
+  color: white;
+  text-shadow:
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      2px 2px 0 #000;
 }
 
 .nana {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 400%);
-    font-family: Helvetica;
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 21.85px;
-    text-align: left;
-    color: wheat;
-    text-shadow:
-        -1px -1px 0 #000,
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000,
-        -2px -2px 0 #000,
-        2px -2px 0 #000,
-        -2px 2px 0 #000,
-        2px 2px 0 #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 400%);
+  font-family: Helvetica;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 21.85px;
+  text-align: left;
+  color: wheat;
+  text-shadow:
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      2px 2px 0 #000;
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  height: 100vh;
-  margin: 0;
-  padding-top: 50px;
-  background-color: #f0f0f0;
-  text-align: center;
-  font-family: Arial, sans-serif;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+height: 100vh;
+margin: 0;
+padding-top: 50px;
+background-color: #f0f0f0;
+text-align: center;
+font-family: Arial, sans-serif;
 }
 
 .all {
-    max-width: 1200px;
-    /* Adjust as needed */
-    width: 95%;
-    /* Full width but constrained by max-width */
-    padding: 20px;
-    /* Add some padding inside the border */
-    box-sizing: border-box;
-    /* Include padding in the element's total width and height */
-    border: 2px solid #333;
-    /* Border around the container */
-    border-radius: 15px;
-    /* Rounded corners */
-    background-color: #fff;
-    /* Optional: background color for the container */
-    box-shadow: 0 0 150px rgba(0, 89, 253, 0.997);
-    /* Optional: add some shadow for better visibility */
-    text-align: center;
+  max-width: 1200px;
+  /* Adjust as needed */
+  width: 95%;
+  /* Full width but constrained by max-width */
+  padding: 20px;
+  /* Add some padding inside the border */
+  box-sizing: border-box;
+  /* Include padding in the element's total width and height */
+  border: 2px solid #333;
+  /* Border around the container */
+  border-radius: 15px;
+  /* Rounded corners */
+  background-color: #fff;
+  /* Optional: background color for the container */
+  box-shadow: 0 0 150px rgba(0, 89, 253, 0.997);
+  /* Optional: add some shadow for better visibility */
+  text-align: center;
 }
 
 .button {
-    text-shadow:
-        -1px -1px 0 #000,
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000,
-        -2px -2px 0 #000,
-        2px -2px 0 #000,
-        -2px 2px 0 #000,
-        2px 2px 0 #000;
+  text-shadow:
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      2px 2px 0 #000;
 }
 
 .custom-link {
-    text-decoration: none;
-    color: inherit;
-    /* Ensure the link inherits the text color */
+  text-decoration: none;
+  color: inherit;
+  /* Ensure the link inherits the text color */
 }
 
 .custom-link:focus,
 .custom-link:hover,
 .custom-link:active {
-    text-decoration: none;
-    outline: none;
-    /* Remove focus outline */
-    color: inherit;
-    /* Ensure color does not change */
+  text-decoration: none;
+  outline: none;
+  /* Remove focus outline */
+  color: inherit;
+  /* Ensure color does not change */
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .drop {
-    background-color: white;
+  background-color: white;
 }
 
 .chaw {
-    margin: 70px 0px 50px 0px;
+  margin: 70px 0px 50px 0px;
 }
 
 .cha {
-    margin: 40px 0px 0px 0px;
+  margin: 40px 0px 0px 0px;
 }
 
 .pica {
-    height: 70px;
+  height: 70px;
 }
 
 .dop {
-    height: 150px;
-    position: left;
-    position: left;
+  height: 150px;
+  position: left;
+  position: left;
 }
 
 
 
 .contact-info img {
-    max-width: 150px !important;
-    margin-right: 20px !important;
-    
+  max-width: 150px !important;
+  margin-right: 20px !important;
+  
 }
 
 .contact-details {
-    max-width: 600px !important;
-    text-align: center !important;
-    margin: 20px !important;
+  max-width: 600px !important;
+  text-align: center !important;
+  margin: 20px !important;
 }
 
 .contact-details h3 {
-    margin-top: 0 !important;
+  margin-top: 0 !important;
 }
 
 .contact-details p {
-    margin-bottom: 10px !important;
+  margin-bottom: 10px !important;
 }
 
 .contact-info {
-    color: #f0f0f0 !important;
+  color: #f0f0f0 !important;
 }
 
 .dropdown-toggle::after {
-    display: none !important;
+  display: none !important;
 }
 
 .contact-info {
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    background-color: #243043;
-    width: 100%;
-    height: 300px;
-    margin: 70px 0px 0px 0px;
-    
-    justify-content: space-around !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #243043;
+  width: 100%;
+  height: 300px;
+  margin: 70px 0px 0px 0px;
+  
+  justify-content: space-around !important;
 }
 
 .allca {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 
 }
 
 
 .card-img-top {
-    height: 450px;
+  height: 450px;
 }
 
 .bigpic {
-    width: 1100px;
-    height: 620px;
-    margin: 50px 0px 0px 0px;
+  width: 1100px;
+  height: 620px;
+  margin: 50px 0px 0px 0px;
 }
 
 .plsda {
-    margin: 50px 0px 0px 0px;
+  margin: 50px 0px 0px 0px;
 }
 
 .picture {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 50px;
 }
 
 .picture img {
-    height: 300px;
-    margin: 50px 0px 50px 0px;
+  height: 300px;
+  margin: 50px 0px 50px 0px;
 
 }
 
 .mapi {
-    width: 600px;
-    height: 450px;
-    border: 3px solid black;
-    border-radius: 15px;
-    overflow: hidden;
+  width: 600px;
+  height: 450px;
+  border: 3px solid black;
+  border-radius: 15px;
+  overflow: hidden;
 }
 
 .dropdown-toggle::after {
-    display: none;
+  display: none;
 }
 
 /* Navbar Styling */
 .navbar {
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
-    box-sizing: border-box;
-    justify-content: center;
-    /* Center the items */
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  justify-content: center;
+  /* Center the items */
 }
 
 
 
 .navbar a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    /* Adjusted margin for even spacing */
-    padding: 10px 20px;
-    font-family: Helvetica;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 19.55px;
-    background-color: #007bff;
-    /* Blue background color */
-    border-radius: 10px;
-    /* Rounded corners */
-    transition: transform 0.3s ease, background-color 0.3s ease;
-    display: inline-block;
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  /* Adjusted margin for even spacing */
+  padding: 10px 20px;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 19.55px;
+  background-color: #007bff;
+  /* Blue background color */
+  border-radius: 10px;
+  /* Rounded corners */
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  display: inline-block;
 }
 
 .navbar a:hover {
-    transform: scale(1.1);
-    /* Enlarge the link slightly */
-    background-color: #0056b3;
-    /* Darker blue on hover */
+  transform: scale(1.1);
+  /* Enlarge the link slightly */
+  background-color: #0056b3;
+  /* Darker blue on hover */
 }
 
 /* Dropdown Menu Styling */
 .dropdown-menu {
-    padding: 10px;
+  padding: 10px;
 
-    background-color: transparent !important;
-    border: none !important;
+  background-color: transparent !important;
+  border: none !important;
 }
 
 .dropdown-menu .dropdown-item {
-    margin: 5px 0;
-    /* Add margin to create space between items */
-    padding: 10px 20px;
-    background-color: #007bff;
+  margin: 5px 0;
+  /* Add margin to create space between items */
+  padding: 10px 20px;
+  background-color: #007bff;
 
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
 .dropdown-menu .dropdown-item:hover {
-    background-color: #007bffe4;
-    color: #fff;
+  background-color: #007bffe4;
+  color: #fff;
 }
 
 .btn {
-    padding: 7px 14px;
-    /* Adjust padding for bigger buttons */
-    font-size: 18px;
-    /* Adjust font size for bigger buttons */
-    transition: all 0.3s ease;
-    /* Add transition for smooth effect */
+  padding: 7px 14px;
+  /* Adjust padding for bigger buttons */
+  font-size: 18px;
+  /* Adjust font size for bigger buttons */
+  transition: all 0.3s ease;
+  /* Add transition for smooth effect */
 }
 
 /* CSS for button size on hover */
 .btn:hover {
-    padding: 10px 20px;
-    /* Adjust padding for bigger buttons on hover */
-    /* Adjust font size for bigger buttons on hover */
+  padding: 10px 20px;
+  /* Adjust padding for bigger buttons on hover */
+  /* Adjust font size for bigger buttons on hover */
 }
 
 .nahahpic img {
-    margin: 50px;
-    height: 500px;
+  margin: 50px;
+  height: 500px;
+  margin: auto;
 }
 
 .all {
-    padding: 20px;
-    box-sizing: border-box;
-    /* Other styles remain */
+  padding: 20px;
+  box-sizing: border-box;
+  /* Other styles remain */
 }
 
 .navbar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 20px;
-    box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
 }
 
 .navbar a {
-    margin: 0 10px;
-    padding: 10px 15px;
-    /* Adjust padding and margins for smaller screens */
+  margin: 0 10px;
+  padding: 10px 15px;
+  /* Adjust padding and margins for smaller screens */
 }
 
 .carousel-item img,
 .dop img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .carousel-item img,
 .dop img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 /* Card styles */
 .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    width: 300px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
 
-  
-  .card-body {
-    padding: 15px;
-  }
-  
-  .card-title {
-    font-family: Helvetica;
-    font-size: 18px;
-    font-weight: 600;
-    margin: 0 0 10px;
-  }
-  
-  .card-text {
-    font-family: Helvetica;
-    font-size: 14px;
-    font-weight: 400;
-    color: #555;
-  }
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+
+.card-text {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  color: #555;
+}
 
 /* Media queries */
 @media (max-width: 1050px) {
-    .allca {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-    
-      .card {
-        flex: 1 1 calc(50% - 20px); /* Adjust width for two cards in a row */
-        max-width: 298px; /* Optional: Adjust max-width if needed */
-        margin: 10px; /* Adjust margin between cards */
-        
-      }
-    
-      .card:nth-child(2) {
-        order: initial; /* Reset order for medium screens */
-      }
-  }
-  
-
-@media (max-width: 972px) {
-    .gerbi {
-      margin: 0;
-      height: 80px;
+  .allca {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
   
-    .contact-info {
-      flex-direction: column;
-      height: auto;
-    }
-  
-    .text-overlay {
-      font-size: 60px;
-    }
-  
-    .navbar a {
-      margin: 5px 0;
-      padding: 10px;
-      font-size: 15px;
-    }
-    
-  }
-  
-  @media (max-width: 778px) {
-    .flex-container {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .contact-info {
-      flex-direction: column;
+    .card {
+      flex: 1 1 calc(50% - 20px); /* Adjust width for two cards in a row */
+      max-width: 298px; /* Optional: Adjust max-width if needed */
+      margin: 10px; /* Adjust margin between cards */
       
     }
-    .contact img{
-      align-items: center;
+  
+    .card:nth-child(2) {
+      order: initial; /* Reset order for medium screens */
     }
-  
-    .text-overlay {
-      font-size: 40px;
-    }
-  
-    .navbar a {
-      margin: 5px 0;
-      padding: 10px;
-      font-size: 13px;
-    }
-    
-    .card-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .card {
-        flex: 1 1 calc(50% - 20px); /* Two cards per row with some margin */
-      }
-      .card {
-        flex: 1 1 100%; /* Stack cards vertically */
-        max-width: 298; /* Reset max-width */
-        margin: 10px 0; /* Adjust margin between stacked cards */
-      }
-    
-      .card:nth-child(2) {
-        order: initial; /* Reset order for small screens */
-      }
-
-  }
-  
-  @media (max-width: 480px) {
-    .flex-container {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .contact-info {
-      flex-direction: column;
-    }
-  
-    .text-overlay {
-      font-size: 30px;
-    }
-  
-    .navbar a {
-      margin: 5px 0;
-      padding: 5px;
-      font-size: 12px;
-    }
-    .card {
-        flex: 1 1 100%; /* Stack cards vertically */
-        margin: 10px 0; /* Adjust margin between stacked cards */
-      }
-  }
-  
-  /* Additional styles */
-  .container {
-    margin-top: 20px;
-  }
-  
-  h1 {
-    font-family: Helvetica;
-    font-size: 24px;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-  }
-  /* Styles for the burger menu icon */
-.burger-menu {
-    display: none; /* Initially hidden */
-    cursor: pointer;
-  }
-  
-  .burger-menu .bar {
-    width: 25px;
-    height: 3px;
-    background-color: #333;
-    margin: 4px 0;
-    transition: 0.4s;
-  }
-.hidden-menu{
-    display: none;
 }
+
+
+@media (max-width: 972px) {
+  .gerbi {
+    margin: 0;
+    height: 80px;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .text-overlay {
+    font-size: 60px;
+  }
+
+  .navbar a {
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 15px;
+  }
   
-  /* Show burger menu on screens below 556px */
-  @media (max-width: 556px) {
-    .burger-menu {
-      display: block; /* Show burger menu icon */
-    }
-  
-    .navbar a {
-      display: none; /* Hide regular navigation links */
-    }
-  
-    .hidden-menu {
-      display: none; /* Hide the regular menu */
-      position: absolute;
-      top: 60px;
-      left: 0;
-      width: 50%;
-      background-color:transparent;
-      z-index: 1;
-      padding: 10px;
-    
-    
-    }
-  
-    .hidden-menu a {
-      display: block;
-      padding: 10px;
-      text-decoration: none;
-      color: #ffffff;
-    }
-  
-    .hidden-menu a:hover {
-      background-color: #ddd;
-    }
+}
+
+@media (max-width: 778px) {
+  .flex-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contact-info {
+    flex-direction: column;
     
   }
+  .contact img{
+    align-items: center;
+  }
+
+  .text-overlay {
+    font-size: 40px;
+  }
+
+  .navbar a {
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 13px;
+  }
+  
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+      flex: 1 1 calc(50% - 20px); /* Two cards per row with some margin */
+    }
+    .card {
+      flex: 1 1 100%; /* Stack cards vertically */
+      max-width: 298; /* Reset max-width */
+      margin: 10px 0; /* Adjust margin between stacked cards */
+    }
+  
+    .card:nth-child(2) {
+      order: initial; /* Reset order for small screens */
+    }
+
+}
+
+@media (max-width: 480px) {
+  .flex-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contact-info {
+    flex-direction: column;
+  }
+
+  .text-overlay {
+    font-size: 30px;
+  }
+
+  .navbar a {
+    margin: 5px 0;
+    padding: 5px;
+    font-size: 12px;
+  }
+  .card {
+      flex: 1 1 100%; /* Stack cards vertically */
+      margin: 10px 0; /* Adjust margin between stacked cards */
+    }
+}
+
+/* Additional styles */
+.container {
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+/* Styles for the burger menu icon */
+.burger-menu {
+  display: none; /* Initially hidden */
+  cursor: pointer;
+}
+
+.burger-menu .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+.hidden-menu{
+  display: none;
+}
+
+/* Show burger menu on screens below 556px */
+@media (max-width: 556px) {
+  .burger-menu {
+    display: block; /* Show burger menu icon */
+  }
+
+  .navbar a {
+    display: none; /* Hide regular navigation links */
+  }
+
+  .hidden-menu {
+    display: none; /* Hide the regular menu */
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 50%;
+    background-color:transparent;
+    z-index: 1;
+    padding: 10px;
+  
+  
+  }
+
+  .hidden-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .hidden-menu a:hover {
+    background-color: #007bffe4;
+  }
+  
+}
 /* Starting height at 1050px */
 /* Starting height at 1050px */
 iframe {
-  width: 100%;
-  height: 620px;
+width: 100%;
+height: 620px;
 }
 
 /* For screen widths from 1050px to 1040px */
 @media (max-width: 1050px) and (min-width: 1040px) {
-  iframe {
-      height: 615px;
-  }
+iframe {
+    height: 615px;
+}
 }
 
 /* For screen widths from 1040px to 1030px */
 @media (max-width: 1040px) and (min-width: 1030px) {
-  iframe {
-      height: 610px;
-  }
+iframe {
+    height: 610px;
+}
 }
 
 /* For screen widths from 1030px to 1020px */
 @media (max-width: 1030px) and (min-width: 1020px) {
-  iframe {
-      height: 605px;
-  }
+iframe {
+    height: 605px;
+}
 }
 
 /* For screen widths from 1020px to 1010px */
 @media (max-width: 1020px) and (min-width: 1010px) {
-  iframe {
-      height: 600px;
-  }
+iframe {
+    height: 600px;
+}
 }
 
 /* For screen widths from 1010px to 1000px */
 @media (max-width: 1010px) and (min-width: 1000px) {
-  iframe {
-      height: 595px;
-  }
+iframe {
+    height: 595px;
+}
 }
 
 /* For screen widths from 1000px to 990px */
 @media (max-width: 1000px) and (min-width: 990px) {
-  iframe {
-      height: 590px;
-  }
+iframe {
+    height: 590px;
+}
 }
 
 /* For screen widths from 990px to 980px */
 @media (max-width: 990px) and (min-width: 980px) {
-  iframe {
-      height: 585px;
-  }
+iframe {
+    height: 585px;
+}
 }
 
 /* For screen widths from 980px to 970px */
 @media (max-width: 980px) and (min-width: 970px) {
-  iframe {
-      height: 580px;
-  }
+iframe {
+    height: 580px;
+}
 }
 
 /* For screen widths from 970px to 960px */
 @media (max-width: 970px) and (min-width: 960px) {
-  iframe {
-      height: 575px;
-  }
+iframe {
+    height: 575px;
+}
 }
 
 /* For screen widths from 960px to 950px */
 @media (max-width: 960px) and (min-width: 950px) {
-  iframe {
-      height: 570px;
-  }
+iframe {
+    height: 570px;
+}
 }
 
 /* For screen widths from 950px to 940px */
 @media (max-width: 950px) and (min-width: 940px) {
-  iframe {
-      height: 565px;
-  }
+iframe {
+    height: 565px;
+}
 }
 
 /* For screen widths from 940px to 930px */
 @media (max-width: 940px) and (min-width: 930px) {
-  iframe {
-      height: 560px;
-  }
+iframe {
+    height: 560px;
+}
 }
 
 /* For screen widths from 930px to 920px */
 @media (max-width: 930px) and (min-width: 920px) {
-  iframe {
-      height: 555px;
-  }
+iframe {
+    height: 555px;
+}
 }
 
 /* For screen widths from 920px to 910px */
 @media (max-width: 920px) and (min-width: 910px) {
-  iframe {
-      height: 550px;
-  }
+iframe {
+    height: 550px;
+}
 }
 
 /* For screen widths from 910px to 900px */
 @media (max-width: 910px) and (min-width: 900px) {
-  iframe {
-      height: 545px;
-  }
+iframe {
+    height: 545px;
+}
 }
 
 /* For screen widths from 900px to 890px */
 @media (max-width: 900px) and (min-width: 890px) {
-  iframe {
-      height: 540px;
-  }
+iframe {
+    height: 540px;
+}
 }
 
 /* For screen widths from 890px to 880px */
 @media (max-width: 890px) and (min-width: 880px) {
-  iframe {
-      height: 535px;
-  }
+iframe {
+    height: 535px;
+}
 }
 
 /* For screen widths from 880px to 870px */
 @media (max-width: 880px) and (min-width: 870px) {
-  iframe {
-      height: 530px;
-  }
+iframe {
+    height: 530px;
+}
 }
 
 /* For screen widths from 870px to 860px */
 @media (max-width: 870px) and (min-width: 860px) {
-  iframe {
-      height: 525px;
-  }
+iframe {
+    height: 525px;
+}
 }
 
 /* For screen widths from 860px to 850px */
 @media (max-width: 860px) and (min-width: 850px) {
-  iframe {
-      height: 520px;
-  }
+iframe {
+    height: 520px;
+}
 }
 
 /* For screen widths from 850px to 840px */
 @media (max-width: 850px) and (min-width: 840px) {
-  iframe {
-      height: 515px;
-  }
+iframe {
+    height: 515px;
+}
 }
 
 /* For screen widths from 840px to 830px */
 @media (max-width: 840px) and (min-width: 830px) {
-  iframe {
-      height: 510px;
-  }
+iframe {
+    height: 510px;
+}
 }
 
 /* For screen widths from 830px to 820px */
 @media (max-width: 830px) and (min-width: 820px) {
-  iframe {
-      height: 505px;
-  }
+iframe {
+    height: 505px;
+}
 }
 
 /* For screen widths from 820px to 810px */
 @media (max-width: 820px) and (min-width: 810px) {
-  iframe {
-      height: 500px;
-  }
+iframe {
+    height: 500px;
+}
 }
 
 /* For screen widths from 810px to 800px */
 @media (max-width: 810px) and (min-width: 800px) {
-  iframe {
-      height: 495px;
-  }
+iframe {
+    height: 495px;
+}
 }
 
 /* For screen widths from 800px to 790px */
 @media (max-width: 800px) and (min-width: 790px) {
-  iframe {
-      height: 490px;
-  }
+iframe {
+    height: 490px;
+}
 }
 
 /* For screen widths from 790px to 780px */
 @media (max-width: 790px) and (min-width: 780px) {
-  iframe {
-      height: 485px;
-  }
+iframe {
+    height: 485px;
+}
 }
 
 /* For screen widths from 780px to 770px */
 @media (max-width: 780px) and (min-width: 770px) {
-  iframe {
-      height: 480px;
-  }
+iframe {
+    height: 480px;
+}
 }
 
 /* For screen widths from 770px to 760px */
 @media (max-width: 770px) and (min-width: 760px) {
-  iframe {
-      height: 475px;
-  }
+iframe {
+    height: 475px;
+}
 }
 
 /* For screen widths from 760px to 750px */
 @media (max-width: 760px) and (min-width: 750px) {
-  iframe {
-      height: 470px;
-  }
+iframe {
+    height: 470px;
+}
 }
 
 /* For screen widths from 750px to 740px */
 @media (max-width: 750px) and (min-width: 740px) {
-  iframe {
-      height: 465px;
-  }
+iframe {
+    height: 465px;
+}
 }
 
 /* For screen widths from 740px to 730px */
 @media (max-width: 740px) and (min-width: 730px) {
-  iframe {
-      height: 460px;
-  }
+iframe {
+    height: 460px;
+}
 }
 
 /* For screen widths from 730px to 720px */
 @media (max-width: 730px) and (min-width: 720px) {
-  iframe {
-      height: 455px;
-  }
+iframe {
+    height: 455px;
+}
 }
 
 /* For screen widths from 720px to 710px */
 @media (max-width: 720px) and (min-width: 710px) {
-  iframe {
-      height: 450px;
-  }
+iframe {
+    height: 450px;
+}
 }
 
 /* For screen widths from 710px to 700px */
 @media (max-width: 710px) and (min-width: 700px) {
-  iframe {
-      height: 445px;
-  }
+iframe {
+    height: 445px;
+}
 }
 
 /* For screen widths from 700px to 690px */
 @media (max-width: 700px) and (min-width: 690px) {
-  iframe {
-      height: 440px;
-  }
+iframe {
+    height: 440px;
+}
 }
 
 /* For screen widths from 690px to 680px */
 @media (max-width: 690px) and (min-width: 680px) {
-  iframe {
-      height: 435px;
-  }
+iframe {
+    height: 435px;
+}
 }
 
 /* For screen widths from 680px to 670px */
 @media (max-width: 680px) and (min-width: 670px) {
-  iframe {
-      height: 430px;
-  }
+iframe {
+    height: 430px;
+}
 }
 
 /* For screen widths from 670px to 660px */
 @media (max-width: 670px) and (min-width: 660px) {
-  iframe {
-      height: 425px;
-  }
+iframe {
+    height: 425px;
+}
 }
 
 /* For screen widths from 660px to 650px */
 @media (max-width: 660px) and (min-width: 650px) {
-  iframe {
-      height: 420px;
-  }
+iframe {
+    height: 420px;
+}
 }
 
 /* For screen widths from 650px to 640px */
 @media (max-width: 650px) and (min-width: 640px) {
-  iframe {
-      height: 415px;
-  }
+iframe {
+    height: 415px;
+}
 }
 
 /* For screen widths from 640px to 630px */
 @media (max-width: 640px) and (min-width: 630px) {
-  iframe {
-      height: 410px;
-  }
+iframe {
+    height: 410px;
+}
 }
 
 /* For screen widths from 630px to 620px */
 @media (max-width: 630px) and (min-width: 620px) {
-  iframe {
-      height: 405px;
-  }
+iframe {
+    height: 405px;
+}
 }
 
 /* For screen widths from 620px to 610px */
 @media (max-width: 620px) and (min-width: 610px) {
-  iframe {
-      height: 400px;
-  }
+iframe {
+    height: 400px;
+}
 }
 
 /* For screen widths from 610px to 600px */
 @media (max-width: 610px) and (min-width: 600px) {
-  iframe {
-      height: 395px;
-  }
+iframe {
+    height: 395px;
+}
 }
 
 /* For screen widths from 600px to 590px */
 @media (max-width: 600px) and (min-width: 590px) {
-  iframe {
-      height: 390px;
-  }
+iframe {
+    height: 390px;
+}
 }
 
 /* For screen widths from 590px to 580px */
 @media (max-width: 590px) and (min-width: 580px) {
-  iframe {
-      height: 385px;
-  }
+iframe {
+    height: 385px;
+}
 }
 
 /* For screen widths from 580px to 570px */
 @media (max-width: 580px) and (min-width: 570px) {
-  iframe {
-      height: 380px;
-  }
+iframe {
+    height: 380px;
+}
 }
 
 /* For screen widths from 570px to 560px */
 @media (max-width: 570px) and (min-width: 560px) {
-  iframe {
-      height: 375px;
-  }
+iframe {
+    height: 375px;
+}
 }
 
 /* For screen widths from 560px to 550px */
 @media (max-width: 560px) and (min-width: 550px) {
-  iframe {
-      height: 370px;
-  }
+iframe {
+    height: 370px;
+}
 }
 
 /* For screen widths from 550px to 540px */
 @media (max-width: 550px) and (min-width: 540px) {
-  iframe {
-      height: 365px;
-  }
+iframe {
+    height: 365px;
+}
 }
 
 /* For screen widths from 540px to 530px */
 @media (max-width: 540px) and (min-width: 530px) {
-  iframe {
-      height: 360px;
-  }
+iframe {
+    height: 360px;
+}
 }
 
 /* For screen widths from 530px to 520px */
 @media (max-width: 530px) and (min-width: 520px) {
-  iframe {
-      height: 355px;
-  }
+iframe {
+    height: 355px;
+}
 }
 
 /* For screen widths from 520px to 510px */
 @media (max-width: 520px) and (min-width: 510px) {
-  iframe {
-      height: 350px;
-  }
+iframe {
+    height: 350px;
+}
 }
 
 /* For screen widths from 510px to 500px */
 @media (max-width: 510px) and (min-width: 500px) {
-  iframe {
-      height: 345px;
-  }
+iframe {
+    height: 345px;
+}
 }
 
 /* For screen widths from 500px to 490px */
 @media (max-width: 500px) and (min-width: 490px) {
-  iframe {
-      height: 340px;
-  }
+iframe {
+    height: 340px;
+}
 }
 
 /* For screen widths from 490px to 480px */
 @media (max-width: 490px) and (min-width: 480px) {
-  iframe {
-      height: 335px;
-  }
+iframe {
+    height: 335px;
+}
 }
 
 /* For screen widths from 480px to 470px */
 @media (max-width: 480px) and (min-width: 470px) {
-  iframe {
-      height: 330px;
-  }
+iframe {
+    height: 330px;
+}
 }
 
 /* For screen widths from 470px to 460px */
 @media (max-width: 470px) and (min-width: 460px) {
-  iframe {
-      height: 325px;
-  }
+iframe {
+    height: 325px;
+}
 }
 
 /* For screen widths from 460px to 450px */
 @media (max-width: 460px) and (min-width: 450px) {
-  iframe {
-      height: 320px;
-  }
+iframe {
+    height: 320px;
 }
+}
+/* For screen widths from 450px to 440px */
+@media (max-width: 450px) and (min-width: 440px) {
+  iframe {
+      height: 315px;
+  }
+  }
+  
+  /* For screen widths from 440px to 430px */
+  @media (max-width: 440px) and (min-width: 430px) {
+  iframe {
+      height: 310px;
+  }
+  }
+  
+  /* For screen widths from 430px to 420px */
+  @media (max-width: 430px) and (min-width: 420px) {
+  iframe {
+      height: 305px;
+  }
+  }
+  
+  /* For screen widths from 420px to 410px */
+  @media (max-width: 420px) and (min-width: 410px) {
+  iframe {
+      height: 300px;
+  }
+  }
+  
+  /* For screen widths from 410px to 400px */
+  @media (max-width: 410px) and (min-width: 400px) {
+  iframe {
+      height: 295px;
+  }
+  }
+  
+  /* For screen widths from 400px to 390px */
+  @media (max-width: 400px) and (min-width: 390px) {
+  iframe {
+      height: 290px;
+  }
+  }
+  
+  /* For screen widths from 390px to 380px */
+  @media (max-width: 390px) and (min-width: 380px) {
+  iframe {
+      height: 285px;
+  }
+  }
+  
+  /* For screen widths from 380px to 370px */
+  @media (max-width: 380px) and (min-width: 370px) {
+  iframe {
+      height: 280px;
+  }
+  }
+  
+  /* For screen widths from 370px to 360px */
+  @media (max-width: 370px) and (min-width: 360px) {
+  iframe {
+      height: 275px;
+  }
+  }
+  
+  /* For screen widths from 360px to 350px */
+  @media (max-width: 360px) and (min-width: 350px) {
+  iframe {
+      height: 270px;
+  }
+  }
+  
+  /* For screen widths from 350px to 340px */
+  @media (max-width: 350px) and (min-width: 340px) {
+  iframe {
+      height: 265px;
+  }
+  }
+  
+  /* For screen widths from 340px to 330px */
+  @media (max-width: 340px) and (min-width: 330px) {
+  iframe {
+      height: 260px;
+  }
+  }
+  
+  /* For screen widths from 330px to 320px */
+  @media (max-width: 330px) and (min-width: 320px) {
+  iframe {
+      height: 255px;
+  }
+  }
+  
+  /* For screen widths from 320px to 310px */
+  @media (max-width: 320px) and (min-width: 310px) {
+  iframe {
+      height: 250px;
+  }
+  }
+  
+  /* For screen widths from 310px to 300px */
+  @media (max-width: 310px) and (min-width: 300px) {
+  iframe {
+      height: 245px;
+  }
+  }
+  
+  /* For screen widths from 300px to 290px */
+  @media (max-width: 300px) and (min-width: 290px) {
+  iframe {
+      height: 240px;
+  }
+  }
+  
+  /* For screen widths from 290px to 280px */
+  @media (max-width: 290px) and (min-width: 280px) {
+  iframe {
+      height: 235px;
+  }
+  }
+  
+  /* For screen widths from 280px to 270px */
+  @media (max-width: 280px) and (min-width: 270px) {
+  iframe {
+      height: 230px;
+  }
+  }
+  
+  /* For screen widths from 270px to 260px */
+  @media (max-width: 270px) and (min-width: 260px) {
+  iframe {
+      height: 225px;
+  }
+  }
+  
+  /* For screen widths from 260px to 250px */
+  @media (max-width: 260px) and (min-width: 250px) {
+  iframe {
+      height: 220px;
+  }
+  }
+  
+  /* For screen widths from 250px to 240px */
+  @media (max-width: 250px) and (min-width: 240px) {
+  iframe {
+      height: 215px;
+  }
+  }
+  
+  /* For screen widths from 240px to 230px */
+  @media (max-width: 240px) and (min-width: 230px) {
+  iframe {
+      height: 210px;
+  }
+  }
+  
+  /* For screen widths from 230px to 220px */
+  @media (max-width: 230px) and (min-width: 220px) {
+  iframe {
+      height: 205px;
+  }
+  }
+  
+  /* For screen widths from 220px to 210px */
+  @media (max-width: 220px) and (min-width: 210px) {
+  iframe {
+      height: 200px;
+  }
+  }
+  
+  /* For screen widths from 210px to 200px */
+  @media (max-width: 210px) and (min-width: 200px) {
+  iframe {
+      height: 195px;
+  }
+  }
+  
+  /* For screen widths from 200px to 190px */
+  @media (max-width: 200px) and (min-width: 190px) {
+  iframe {
+      height: 190px;
+  }
+  }
+  
+  /* For screen widths from 190px to 180px */
+  @media (max-width: 190px) and (min-width: 180px) {
+  iframe {
+      height: 185px;
+  }
+  }
+  
+  /* For screen widths from 180px to 170px */
+  @media (max-width: 180px) and (min-width: 170px) {
+  iframe {
+      height: 180px;
+  }
+  }
+  
+  /* For screen widths from 170px to 160px */
+  @media (max-width: 170px) and (min-width: 160px) {
+  iframe {
+      height: 175px;
+  }
+  }
+  
+  /* For screen widths from 160px to 150px */
+  @media (max-width: 160px) and (min-width: 150px) {
+  iframe {
+      height: 170px;
+  }
+  }
+  
+  /* For screen widths from 150px to 140px */
+  @media (max-width: 150px) and (min-width: 140px) {
+  iframe {
+      height: 165px;
+  }
+  }
+  
+  /* For screen widths from 140px to 130px */
+  @media (max-width: 140px) and (min-width: 130px) {
+  iframe {
+      height: 160px;
+  }
+  }
+  
+  /* For screen widths from 130px to 120px */
+  @media (max-width: 130px) and (min-width: 120px) {
+  iframe {
+      height: 155px;
+  }
+  }
+  
+  /* For screen widths from 120px to 110px */
+  @media (max-width: 120px) and (min-width: 110px) {
+  iframe {
+      height: 150px;
+  }
+  }
+  
+  /* For screen widths from 110px to 100px */
+  @media (max-width: 110px) and (min-width: 100px) {
+  iframe {
+      height: 145px;
+  }
+  }
+  
+  /* For screen widths from 100px to 90px */
+  @media (max-width: 100px) and (min-width: 90px) {
+  iframe {
+      height: 140px;
+  }
+  }
+  
+  /* For screen widths from 90px to 80px */
+  @media (max-width: 90px) and (min-width: 80px) {
+  iframe {
+      height: 135px;
+  }
+  }
+  
+  /* For screen widths from 80px to 70px */
+  @media (max-width: 80px) and (min-width: 70px) {
+  iframe {
+      height: 130px;
+  }
+  }
+  
+  /* For screen widths from 70px to 60px */
+  @media (max-width: 70px) and (min-width: 60px) {
+  iframe {
+      height: 125px;
+  }
+  }
+  
+  /* For screen widths from 60px to 50px */
+  @media (max-width: 60px) and (min-width: 50px) {
+  iframe {
+      height: 120px;
+  }
+  }
+  
+  /* For screen widths from 50px to 40px */
+  @media (max-width: 50px) and (min-width: 40px) {
+  iframe {
+      height: 115px;
+  }
+  }
+  
+  /* For screen widths from 40px to 30px */
+  @media (max-width: 40px) and (min-width: 30px) {
+  iframe {
+      height: 110px;
+  }
+  }
+  
+  /* For screen widths from 30px to 20px */
+  @media (max-width: 30px) and (min-width: 20px) {
+  iframe {
+      height: 105px;
+  }
+  }
+  
+  /* For screen widths from 20px to 10px */
+  @media (max-width: 20px) and (min-width: 10px) {
+  iframe {
+      height: 100px;
+  }
+  }
+  
+  /* For screen widths from 10px to 0px */
+  @media (max-width: 10px) and (min-width: 0px) {
+  iframe {
+      height: 95px;
+  }
+  }
