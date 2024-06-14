@@ -112,7 +112,9 @@
     color: #343232;
 
 }
-
+.d-block w-100{
+  height: 620px;
+}
 .three h2 {
     margin: 10px 0px 0px 0px;
     font-size: 19px;
@@ -235,12 +237,12 @@
     width: 1540px;
 }
 /* General img styles */
- img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: auto;
-  }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  
+}
   
 .text-overlay {
     position: absolute;
@@ -377,6 +379,7 @@ a {
 .contact-info img {
     max-width: 150px !important;
     margin-right: 20px !important;
+    
 }
 
 .contact-details {
@@ -661,6 +664,10 @@ a {
   
     .contact-info {
       flex-direction: column;
+      
+    }
+    .contact img{
+      align-items: center;
     }
   
     .text-overlay {
@@ -690,6 +697,7 @@ a {
       .card:nth-child(2) {
         order: initial; /* Reset order for small screens */
       }
+
   }
   
   @media (max-width: 480px) {
@@ -780,5 +788,431 @@ a {
     .hidden-menu a:hover {
       background-color: #ddd;
     }
+    
   }
-  
+/* Starting height at 1050px */
+/* Starting height at 1050px */
+iframe {
+  width: 100%;
+  height: 620px;
+}
+
+/* For screen widths from 1050px to 1040px */
+@media (max-width: 1050px) and (min-width: 1040px) {
+  iframe {
+      height: 615px;
+  }
+}
+
+/* For screen widths from 1040px to 1030px */
+@media (max-width: 1040px) and (min-width: 1030px) {
+  iframe {
+      height: 610px;
+  }
+}
+
+/* For screen widths from 1030px to 1020px */
+@media (max-width: 1030px) and (min-width: 1020px) {
+  iframe {
+      height: 605px;
+  }
+}
+
+/* For screen widths from 1020px to 1010px */
+@media (max-width: 1020px) and (min-width: 1010px) {
+  iframe {
+      height: 600px;
+  }
+}
+
+/* For screen widths from 1010px to 1000px */
+@media (max-width: 1010px) and (min-width: 1000px) {
+  iframe {
+      height: 595px;
+  }
+}
+
+/* For screen widths from 1000px to 990px */
+@media (max-width: 1000px) and (min-width: 990px) {
+  iframe {
+      height: 590px;
+  }
+}
+
+/* For screen widths from 990px to 980px */
+@media (max-width: 990px) and (min-width: 980px) {
+  iframe {
+      height: 585px;
+  }
+}
+
+/* For screen widths from 980px to 970px */
+@media (max-width: 980px) and (min-width: 970px) {
+  iframe {
+      height: 580px;
+  }
+}
+
+/* For screen widths from 970px to 960px */
+@media (max-width: 970px) and (min-width: 960px) {
+  iframe {
+      height: 575px;
+  }
+}
+
+/* For screen widths from 960px to 950px */
+@media (max-width: 960px) and (min-width: 950px) {
+  iframe {
+      height: 570px;
+  }
+}
+
+/* For screen widths from 950px to 940px */
+@media (max-width: 950px) and (min-width: 940px) {
+  iframe {
+      height: 565px;
+  }
+}
+
+/* For screen widths from 940px to 930px */
+@media (max-width: 940px) and (min-width: 930px) {
+  iframe {
+      height: 560px;
+  }
+}
+
+/* For screen widths from 930px to 920px */
+@media (max-width: 930px) and (min-width: 920px) {
+  iframe {
+      height: 555px;
+  }
+}
+
+/* For screen widths from 920px to 910px */
+@media (max-width: 920px) and (min-width: 910px) {
+  iframe {
+      height: 550px;
+  }
+}
+
+/* For screen widths from 910px to 900px */
+@media (max-width: 910px) and (min-width: 900px) {
+  iframe {
+      height: 545px;
+  }
+}
+
+/* For screen widths from 900px to 890px */
+@media (max-width: 900px) and (min-width: 890px) {
+  iframe {
+      height: 540px;
+  }
+}
+
+/* For screen widths from 890px to 880px */
+@media (max-width: 890px) and (min-width: 880px) {
+  iframe {
+      height: 535px;
+  }
+}
+
+/* For screen widths from 880px to 870px */
+@media (max-width: 880px) and (min-width: 870px) {
+  iframe {
+      height: 530px;
+  }
+}
+
+/* For screen widths from 870px to 860px */
+@media (max-width: 870px) and (min-width: 860px) {
+  iframe {
+      height: 525px;
+  }
+}
+
+/* For screen widths from 860px to 850px */
+@media (max-width: 860px) and (min-width: 850px) {
+  iframe {
+      height: 520px;
+  }
+}
+
+/* For screen widths from 850px to 840px */
+@media (max-width: 850px) and (min-width: 840px) {
+  iframe {
+      height: 515px;
+  }
+}
+
+/* For screen widths from 840px to 830px */
+@media (max-width: 840px) and (min-width: 830px) {
+  iframe {
+      height: 510px;
+  }
+}
+
+/* For screen widths from 830px to 820px */
+@media (max-width: 830px) and (min-width: 820px) {
+  iframe {
+      height: 505px;
+  }
+}
+
+/* For screen widths from 820px to 810px */
+@media (max-width: 820px) and (min-width: 810px) {
+  iframe {
+      height: 500px;
+  }
+}
+
+/* For screen widths from 810px to 800px */
+@media (max-width: 810px) and (min-width: 800px) {
+  iframe {
+      height: 495px;
+  }
+}
+
+/* For screen widths from 800px to 790px */
+@media (max-width: 800px) and (min-width: 790px) {
+  iframe {
+      height: 490px;
+  }
+}
+
+/* For screen widths from 790px to 780px */
+@media (max-width: 790px) and (min-width: 780px) {
+  iframe {
+      height: 485px;
+  }
+}
+
+/* For screen widths from 780px to 770px */
+@media (max-width: 780px) and (min-width: 770px) {
+  iframe {
+      height: 480px;
+  }
+}
+
+/* For screen widths from 770px to 760px */
+@media (max-width: 770px) and (min-width: 760px) {
+  iframe {
+      height: 475px;
+  }
+}
+
+/* For screen widths from 760px to 750px */
+@media (max-width: 760px) and (min-width: 750px) {
+  iframe {
+      height: 470px;
+  }
+}
+
+/* For screen widths from 750px to 740px */
+@media (max-width: 750px) and (min-width: 740px) {
+  iframe {
+      height: 465px;
+  }
+}
+
+/* For screen widths from 740px to 730px */
+@media (max-width: 740px) and (min-width: 730px) {
+  iframe {
+      height: 460px;
+  }
+}
+
+/* For screen widths from 730px to 720px */
+@media (max-width: 730px) and (min-width: 720px) {
+  iframe {
+      height: 455px;
+  }
+}
+
+/* For screen widths from 720px to 710px */
+@media (max-width: 720px) and (min-width: 710px) {
+  iframe {
+      height: 450px;
+  }
+}
+
+/* For screen widths from 710px to 700px */
+@media (max-width: 710px) and (min-width: 700px) {
+  iframe {
+      height: 445px;
+  }
+}
+
+/* For screen widths from 700px to 690px */
+@media (max-width: 700px) and (min-width: 690px) {
+  iframe {
+      height: 440px;
+  }
+}
+
+/* For screen widths from 690px to 680px */
+@media (max-width: 690px) and (min-width: 680px) {
+  iframe {
+      height: 435px;
+  }
+}
+
+/* For screen widths from 680px to 670px */
+@media (max-width: 680px) and (min-width: 670px) {
+  iframe {
+      height: 430px;
+  }
+}
+
+/* For screen widths from 670px to 660px */
+@media (max-width: 670px) and (min-width: 660px) {
+  iframe {
+      height: 425px;
+  }
+}
+
+/* For screen widths from 660px to 650px */
+@media (max-width: 660px) and (min-width: 650px) {
+  iframe {
+      height: 420px;
+  }
+}
+
+/* For screen widths from 650px to 640px */
+@media (max-width: 650px) and (min-width: 640px) {
+  iframe {
+      height: 415px;
+  }
+}
+
+/* For screen widths from 640px to 630px */
+@media (max-width: 640px) and (min-width: 630px) {
+  iframe {
+      height: 410px;
+  }
+}
+
+/* For screen widths from 630px to 620px */
+@media (max-width: 630px) and (min-width: 620px) {
+  iframe {
+      height: 405px;
+  }
+}
+
+/* For screen widths from 620px to 610px */
+@media (max-width: 620px) and (min-width: 610px) {
+  iframe {
+      height: 400px;
+  }
+}
+
+/* For screen widths from 610px to 600px */
+@media (max-width: 610px) and (min-width: 600px) {
+  iframe {
+      height: 395px;
+  }
+}
+
+/* For screen widths from 600px to 590px */
+@media (max-width: 600px) and (min-width: 590px) {
+  iframe {
+      height: 390px;
+  }
+}
+
+/* For screen widths from 590px to 580px */
+@media (max-width: 590px) and (min-width: 580px) {
+  iframe {
+      height: 385px;
+  }
+}
+
+/* For screen widths from 580px to 570px */
+@media (max-width: 580px) and (min-width: 570px) {
+  iframe {
+      height: 380px;
+  }
+}
+
+/* For screen widths from 570px to 560px */
+@media (max-width: 570px) and (min-width: 560px) {
+  iframe {
+      height: 375px;
+  }
+}
+
+/* For screen widths from 560px to 550px */
+@media (max-width: 560px) and (min-width: 550px) {
+  iframe {
+      height: 370px;
+  }
+}
+
+/* For screen widths from 550px to 540px */
+@media (max-width: 550px) and (min-width: 540px) {
+  iframe {
+      height: 365px;
+  }
+}
+
+/* For screen widths from 540px to 530px */
+@media (max-width: 540px) and (min-width: 530px) {
+  iframe {
+      height: 360px;
+  }
+}
+
+/* For screen widths from 530px to 520px */
+@media (max-width: 530px) and (min-width: 520px) {
+  iframe {
+      height: 355px;
+  }
+}
+
+/* For screen widths from 520px to 510px */
+@media (max-width: 520px) and (min-width: 510px) {
+  iframe {
+      height: 350px;
+  }
+}
+
+/* For screen widths from 510px to 500px */
+@media (max-width: 510px) and (min-width: 500px) {
+  iframe {
+      height: 345px;
+  }
+}
+
+/* For screen widths from 500px to 490px */
+@media (max-width: 500px) and (min-width: 490px) {
+  iframe {
+      height: 340px;
+  }
+}
+
+/* For screen widths from 490px to 480px */
+@media (max-width: 490px) and (min-width: 480px) {
+  iframe {
+      height: 335px;
+  }
+}
+
+/* For screen widths from 480px to 470px */
+@media (max-width: 480px) and (min-width: 470px) {
+  iframe {
+      height: 330px;
+  }
+}
+
+/* For screen widths from 470px to 460px */
+@media (max-width: 470px) and (min-width: 460px) {
+  iframe {
+      height: 325px;
+  }
+}
+
+/* For screen widths from 460px to 450px */
+@media (max-width: 460px) and (min-width: 450px) {
+  iframe {
+      height: 320px;
+  }
+}
