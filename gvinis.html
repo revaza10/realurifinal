@@ -22,44 +22,86 @@
   </head>
   <body>
     <div class="all">
-        <div class="navbar">
-            <img src="imige/gerbi.jpg" class="gerbi" />
-            <a href="index.html">მთავარი</a>
-            <!-- Dropdown for "შესახებ" -->
-            <div class="dropdown">
-              <a
-                class="dropdown-toggle"
-                href="#"
-                id="aboutDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+      <div class="navbar">
+        <img src="imige/gerbi.jpg" class="gerbi" />
+        <a href="index.html">მთავარი</a>
+        <div class="dropdown">
+          <a
+            class="dropdown-toggle"
+            href="#"
+            id="aboutDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            შესახებ
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <li>
+              <a class="dropdown-item" href="geografia.html">გეოგრაფია</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="istoria.html">ცაგერის ისტორია</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="gvinis.html">გასტრონომია და ღვინო</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="xelovneba.html"
+              >ხელოვნება, კულტურა <br>და სპორტი</br></a
+            >
+            </li>
+            <li>
+              <a class="dropdown-item" href="buneba.html">ბუნება და კლიმატი</a>
+            </li>
+          </ul>
+        </div>
+        <a href="tourist_places.html">ტურისტული ადგილები</a>
+      
+        <!-- Burger menu icon -->
+        <div class="burger-menu" onclick="toggleMenu()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      
+        <!-- Hidden menu for smaller screens -->
+        <div class="hidden-menu">
+          <a href="index.html">მთავარი</a>
+          <div class="dropdown">
+            <a
+              class="dropdown-toggle"
+              href="#"
+              id="aboutDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              შესახებ
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+              <li>
+                <a class="dropdown-item" href="geografia.html">გეოგრაფია</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="istoria.html">ცაგერის ისტორია</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="gvinis.html">გასტრონომია და ღვინო</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="xelovneba.html"
+                >ხელოვნება, კულტურა <br>და სპორტი</br></a
               >
-                შესახებ
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
-                <li>
-                  <a class="dropdown-item" href="geografia.html">გეოგრაფია</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="istoria.html">ცაგერის ისტორია</a>
-    
-                </li>
-                <li>
-                  <a class="dropdown-item" href="gvinis.html">გასტრონომია და ღვინო</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="xelovneba.html"
-                    >ხელოვნება, კულტურა <br>და სპორტი</br></a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="buneba.html">ბუნება და კლიმატი</a>
-                </li>
-              </ul>
-            </div>
-            <a href="tourist_places.html">ტურისტული ადგილები</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="buneba.html">ბუნება და კლიმატი</a>
+              </li>
+            </ul>
           </div>
+          <a href="tourist_places.html">ტურისტული ადგილები</a>
+        </div>
+      </div>
           <div id="geo">
             <h1>ლეჩხუმის ბუნებრივი ღვინო და დიდი მომავალი</h1>
             <p>მთებში ჩაკარგული და ტყეებში ჩაფლული პატარა ლეჩხუმი ქართული მევენახეობა-მეღვინეობის ერთ-ერთი საუკეთესო რეგიონია. ლეჩხუმს მხოლოდ ერთი რაიონული ცენტრი აქვს და ამ ღვინის მხარის ისტორიაც ცაგერში და მის გარშემო მდებარე სოფლებში იწერება. ლეჩხუმის საუკეთესო ვენახები ორი მთავარი მდინარის - რიონისა და ცხენისწყლის ხეობაში, მაღალი დახრილობის მზიან ფერდობებზეა გაშენებული.
@@ -72,7 +114,7 @@
             
             „ასათიანის ღვინო“ ასოციაცია „ბუნებრივი ღვინის“ ერთ-ერთი-ძველი წევრია. მარანი ცაგერის მუნიციპალიტეტის სოფელ ტვიშში მდებარეობს. დასახელებიდანაც ჩანს, რომ ეს არის ასათიანების მარანი, რომელიც დაფუძნებულია ღვინის დაყენების ძველ ოჯახურ ტრადიციებზე. „ასათიანის ღვინო“ ცოლიკოურისგან მშრალ და ნახევრადმშრალ ღვინოებს აწარმოებს, ბუნებრივი მეღვინეობის წესების დაცვით. ვენახები მარნის გარშემოა გაშენებული. ვაზის დიდი ნაწილი ძველია - 70 წლის ასაკის. ამიტომ ასათიანები ცდილობენ, განაახლონ ძველი ვენახები. „ასათიანის ღვინო“ ძირითადად ექსპორტზე იყიდება.</p>
           </div>
-          <div class="nahahpic">
+          <div class="bigpic">
           <img src="imige/JR9wThidcECgM1A2JhSUYLe3oW8UuARJeuXdChZS.jpg">
         </div>
         <div><p>ტვიშის ცოლიკოურიდან დაყენებულ ბუნებრივ ღვინოს განსაკუთრებულ გემოს ანიჭებს მიკროზონის კლიმატი და მინერალებით სავსე ნიადაგი. ასოციაცია „ბუნებრივი ღვინის“ წევრი „მუშკუდიანის მარანი“ ასევე სოფელ ტვიშში მდებარეობს.  ვენახებს და მარანს უმეტესწილად უვლის დიმიტრი და ნინო მუშკუდიანების მამა, ვალერი მუშკუდიანი და მათი 83 წლის ბებია. დიმიტრი და ნინო მუშკუდიანები კი მუშაობენ მარნის განვითარების სტრატეგიაზე და მარკეტინგზე. მუშკუდიანების მთავარი საღვინე ჯიში, ასათიანების მსგავსად, ტვიშის ცოლიკოურია, რომელსაც ცისტერნებში აყენებენ. ოჯახს, ასევე, უკვე აქვს ქვევრები და სამომავლოდ ქვევრის ღვინოსაც დააყენებს. მუშკუდიანების, ისევე როგორც ასოციაციის სხვა წევრების ვენახები, იწამლება ორგანულ მევენახეობაში დაშვებული პრეპარატებით. ღვინოს კი ბუნებრივი მეთოდებით, ყოველგვარი დანამატების გარეშე აყენებენ. 

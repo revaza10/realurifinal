@@ -768,6 +768,16 @@ a {
     margin: 10px 0;
     /* Adjust margin between stacked cards */
   }
+  .dropdown-item {
+   
+    display: flex;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 100; /* Ensure dropdown is above other content */
+    display: none;
+  }
 }
 
 /* Additional styles */
@@ -864,6 +874,7 @@ h1 {
     margin-bottom: 10px;
     /* Add space between stacked images */
   }
+  
 }
 
 /* Starting height at 1050px */

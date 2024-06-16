@@ -8,4 +8,11 @@ function toggleMenu() {
     // });
     
   }
+  document.addEventListener('DOMContentLoaded', function() {
+    var dropdownToggle = document.querySelector('.dropdown-toggle');
   
+    dropdownToggle.addEventListener('click', function() {
+      var dropdownMenu = dropdownToggle.nextElementSibling;
+      dropdownMenu.classList.toggle('active');
+    });
+  });
