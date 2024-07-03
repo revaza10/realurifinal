@@ -239,13 +239,7 @@
   width: 1540px;
 }
 
-/* General img styles */
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
 
-}
 
 .text-overlay {
   position: absolute;
@@ -434,13 +428,11 @@ a {
 
 .bigpic {
   display: block;
-  /* Ensures the image is displayed as a block element */
+
   margin: 50px auto;
-  /* Centers the image horizontally and adds margin at the top */
   max-width: 100%;
-  /* Ensures the image does not exceed its container's width */
   height: auto;
-  /* Allows the image to scale proportionally */
+  
 }
 
 .plsda {
